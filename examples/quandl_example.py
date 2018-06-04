@@ -3,7 +3,6 @@
 import pandas as pd
 import quandl
 
-#quandl.ApiConfig.apikey = 'Uvc7KJzykfvBLjVkNDy2'
 quandl.ApiConfig.apikey = 'Uvc7KJzykfvBLjVkNDy2'
 
 data = quandl.get_table('WIKI/PRICES',ticker = ['AAPL','MSFT','GOOG'],
